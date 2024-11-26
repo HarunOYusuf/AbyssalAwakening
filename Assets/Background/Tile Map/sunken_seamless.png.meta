@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sunken_seamless_0: -4977929668910206904
+      sunken_seamless_1: 4368950407450329729
+      sunken_seamless_2: -8769235485718702812
+      sunken_seamless_3: 7732686818180547612
+      sunken_seamless_4: -2784309417125733625
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

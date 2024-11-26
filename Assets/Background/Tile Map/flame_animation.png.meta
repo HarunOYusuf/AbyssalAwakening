@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flame_animation_0: 4445184728179453447
+      flame_animation_1: -3117953630504043121
+      flame_animation_2: 8698977669574241842
+      flame_animation_3: 1763272088013775899
+      flame_animation_4: -1905392538228694213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

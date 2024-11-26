@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sunken_blocky_0: -1244535109150734594
+      sunken_blocky_1: 8028201824906267889
+      sunken_blocky_2: -5225197421253061391
+      sunken_blocky_3: -1411480037601648132
+      sunken_blocky_4: -2846956986293040848
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
