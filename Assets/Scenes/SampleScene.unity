@@ -351,7 +351,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 635355280010753856, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.0015016
+      value: 4.594873
       objectReference: {fileID: 0}
     - target: {fileID: 635355280010753856, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
       propertyPath: m_LocalScale.y
@@ -405,6 +405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7727589808705690733, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c5617dafa3458134c874649509432895, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
