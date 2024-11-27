@@ -149,7 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7eb75e81d01f64dbad2f08f93c9738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 100
+  walkSpeed: 200
+  _isFacingRight: 1
 --- !u!114 &9072505531486959486
 MonoBehaviour:
   m_ObjectHideFlags: 0
