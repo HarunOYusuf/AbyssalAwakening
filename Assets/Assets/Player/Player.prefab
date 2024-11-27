@@ -229,7 +229,19 @@ MonoBehaviour:
     m_ActionId: 46a8190e-b7e8-4eb3-b2b9-4d310c333d69
     m_ActionName: 'Player/Look[/Mouse/delta,/Pen/delta]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1135827452942226151}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: ed253349-d72f-4048-9b4c-7a03a2119ede
     m_ActionName: 'Player/Attack[/Mouse/leftButton]'
   - m_PersistentCalls:

@@ -7,6 +7,8 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+   
+    internal static string attack = "attack";
     public float walkSpeed = 3f;
     private Vector2 moveInput;
     
@@ -78,5 +80,14 @@ public class PlayerController : MonoBehaviour
             IsFacingRight = false;
         }
     }
-    
+
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if(context.started)
+        {
+          
+            animator.SetTrigger(attack);
+        }
+    }
+
 }
