@@ -8,6 +8,8 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
    
+    public Transform FirePoint;
+    public GameObject BulletPrefab;
     internal static string attack = "attack";
     public float walkSpeed = 3f;
     private Vector2 moveInput;
@@ -32,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public bool IsFacingRight { get { return _isFacingRight; } private set {
             if (_isFacingRight != value)
             {
-               transform.localScale *= new Vector2(-1, 1);
+               transform.Rotate(0f, 180f, 0f);
             }
             _isFacingRight = value;
         }
@@ -53,10 +55,17 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    // Update is called once per frame
+    // 
     void Update()
     {
+     
+        
+    }
 
+    // Shooting Function
+    void Shoot()
+    {
+        Instantiate(BulletPrefab, FirePoint.position, FirePoint.rotation);
     }
     
     //Player Movement 
@@ -96,6 +105,8 @@ public class PlayerController : MonoBehaviour
             
             moveInput = Vector2.zero;
             IsMoving = false;
+            
+         
         }
     }
 

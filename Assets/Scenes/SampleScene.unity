@@ -120,6 +120,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &355749806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2802224542215964752, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
+  m_PrefabInstance: {fileID: 3875230876141753637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +405,18 @@ PrefabInstance:
     - target: {fileID: 635355280010753856, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1135827452942226151, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
+      propertyPath: FirePoint
+      value: 
+      objectReference: {fileID: 355749806}
+    - target: {fileID: 1135827452942226151, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
+      propertyPath: BulletPrefab
+      value: 
+      objectReference: {fileID: 425636947215892180, guid: 30849604b3778a340baf31dd0627df9f, type: 3}
+    - target: {fileID: 2802224542215964752, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.114
       objectReference: {fileID: 0}
     - target: {fileID: 4356039134669719946, guid: c812a1b704ed5354c9b11853592aa71c, type: 3}
       propertyPath: m_Name
