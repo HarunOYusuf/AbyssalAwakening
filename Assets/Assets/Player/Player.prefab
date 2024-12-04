@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 2802224542215964752}
-  BulletPrefab: {fileID: 0}
+  BulletPrefab: {fileID: 425636947215892180, guid: 30849604b3778a340baf31dd0627df9f, type: 3}
   walkSpeed: 200
   _isFacingRight: 1
 --- !u!114 &9072505531486959486
