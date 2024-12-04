@@ -93,6 +93,9 @@ public class PlayerController : MonoBehaviour
         {
           
             animator.SetTrigger(attack);
+            
+            moveInput = Vector2.zero;
+            IsMoving = false;
         }
     }
 
