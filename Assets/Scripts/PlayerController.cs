@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     
     private bool _isMoving = false;
     
+    //Player movement anim
     public bool IsMoving
     {
         get { return _isMoving; }
@@ -23,6 +24,8 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isMoving", value);
         }
     }
+    
+    // Flip Player direction
     
     public bool _isFacingRight = true;
 
@@ -37,7 +40,8 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D rb;
     private Animator animator;
-
+    
+    //Anim setup
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -54,7 +58,8 @@ public class PlayerController : MonoBehaviour
     {
 
     }
-
+    
+    //Player Movement 
     void FixedUpdate()
     {
         rb.velocity = new Vector2(moveInput.x * walkSpeed * Time.fixedDeltaTime, rb.velocity.y);
@@ -81,6 +86,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Player Attack
     public void OnAttack(InputAction.CallbackContext context)
     {
         if(context.started)
