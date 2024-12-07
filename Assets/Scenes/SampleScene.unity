@@ -529,8 +529,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7678652982955302528, guid: 5b8e30a9109449b4b9a609652738773b, type: 3}
+      propertyPath: rollForce
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678652982955302528, guid: 5b8e30a9109449b4b9a609652738773b, type: 3}
       propertyPath: flipOffset.x
       value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678652982955302528, guid: 5b8e30a9109449b4b9a609652738773b, type: 3}
+      propertyPath: rollDuration
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7678652982955302528, guid: 5b8e30a9109449b4b9a609652738773b, type: 3}
       propertyPath: attackDuration
@@ -539,6 +547,10 @@ PrefabInstance:
     - target: {fileID: 7678652982955302528, guid: 5b8e30a9109449b4b9a609652738773b, type: 3}
       propertyPath: groundLayer.m_Bits
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7678652982955302528, guid: 5b8e30a9109449b4b9a609652738773b, type: 3}
+      propertyPath: rollSpeedMultiplier
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
