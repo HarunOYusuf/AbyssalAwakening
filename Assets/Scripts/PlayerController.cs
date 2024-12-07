@@ -9,16 +9,18 @@ public class PlayerController : MonoBehaviour
 {
     internal static string jump = "jump";
     internal static string attack = "attack";
-    private static readonly int Jump = Animator.StringToHash("jump");
     public float walkSpeed = 3f;
     public float jumpForce = 2f;
+    public  float attackDuration = 0.5f;
     private Vector2 moveInput;
     public Vector2 flipOffset = new Vector2(0.5f, 0f);
     
     private bool _isMoving = false;
     private bool _isGrounded = false;
+    private bool _isAttacking = false;
     
-    //Player movement anim
+    
+    //Player movement anim setup
     public bool IsMoving
     {
         get { return _isMoving; }
@@ -28,6 +30,15 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isMoving", value);
         }
     }
+    
+    //Player Attack anim setup
+    public bool IsAttacking
+    {
+        get { return _isAttacking; }
+    }
+   
+    
+    
     
     // Flip Player direction
     
@@ -121,25 +132,34 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started && _isGrounded)
         {
-          
+         
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            animator.SetTrigger(jump); 
+            animator.SetTrigger("jump"); 
+            
         }
     }
 
     // Player Attack
     public void OnAttack(InputAction.CallbackContext context)
     {
-        if(context.started)
+        if(context.started && !_isAttacking)
         {
-          
+            _isAttacking = true;
             animator.SetTrigger(attack);
             
-            moveInput = Vector2.zero;
-            IsMoving = false;
-            
-         
+            animator.SetBool("isAttacking", true);
+           
+            StartCoroutine(ResetAttackFlag());
+
         }
     }
 
+    //Stop Attack anim
+    private IEnumerator ResetAttackFlag()
+    { 
+        yield return new WaitForSeconds(attackDuration);
+        
+        _isAttacking = false;
+        animator.SetBool("isAttacking", false);
+    }
 }
