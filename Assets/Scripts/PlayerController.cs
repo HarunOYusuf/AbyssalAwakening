@@ -7,15 +7,15 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-   
-    public Transform FirePoint;
-    public GameObject BulletPrefab;
+    
     internal static string attack = "attack";
     public float walkSpeed = 3f;
+    public float jumpForce = 2f;
     private Vector2 moveInput;
     public Vector2 flipOffset = new Vector2(0.5f, 0f);
     
     private bool _isMoving = false;
+    private bool _isGrounded = false;
     
     //Player movement anim
     public bool IsMoving
@@ -44,13 +44,18 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     private Animator animator;
     
+    public LayerMask groundLayer; 
+    public Transform groundCheck; 
+    public float groundCheckRadius = 0.2f;
+    
     //Anim setup
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>(); 
     }
-
+    
+  
     void Start()
     {
 
@@ -62,17 +67,15 @@ public class PlayerController : MonoBehaviour
      
         
     }
-
-    // Shooting Function
-    void Shoot()
-    {
-        Instantiate(BulletPrefab, FirePoint.position, FirePoint.rotation);
-    }
+    
     
     //Player Movement 
     void FixedUpdate()
     {
         rb.velocity = new Vector2(moveInput.x * walkSpeed, rb.velocity.y);
+        
+        _isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        animator.SetBool("isGrounded", _isGrounded);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -84,6 +87,9 @@ public class PlayerController : MonoBehaviour
         SetFacingDirection(moveInput);
     }
 
+    
+    
+    
     private void SetFacingDirection(Vector2 vector2)
     {
         if (moveInput.x > 0 && !IsFacingRight)
@@ -106,6 +112,17 @@ public class PlayerController : MonoBehaviour
         Vector2 position = transform.position;
         position.x += IsFacingRight ? flipOffset.x : -flipOffset.x;
         transform.position = position;
+    }
+    
+    //Jump Function
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        if (context.started && _isGrounded)
+        {
+          
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            animator.SetTrigger("jump"); 
+        }
     }
 
     // Player Attack
