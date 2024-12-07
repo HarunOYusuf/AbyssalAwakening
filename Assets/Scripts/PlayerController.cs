@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     internal static string attack = "attack";
     public float walkSpeed = 3f;
     private Vector2 moveInput;
+    public Vector2 flipOffset = new Vector2(0.5f, 0f);
     
     private bool _isMoving = false;
     
@@ -88,11 +89,23 @@ public class PlayerController : MonoBehaviour
         if (moveInput.x > 0 && !IsFacingRight)
         {
             IsFacingRight = true;
+            AdjustFlipOffset();
         }
         else if (moveInput.x < 0 && IsFacingRight)
         {
             IsFacingRight = false;
+            AdjustFlipOffset();
         }
+        
+    }
+    
+    //Adjusting Pivot
+    private void AdjustFlipOffset()
+    {
+        
+        Vector2 position = transform.position;
+        position.x += IsFacingRight ? flipOffset.x : -flipOffset.x;
+        transform.position = position;
     }
 
     // Player Attack
