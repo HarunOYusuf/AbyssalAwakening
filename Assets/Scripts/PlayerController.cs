@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     internal static string attack = "attack";
     public float rollDuration = 0.8f;
     public float rollSpeedMultiplier = 2f;
+    public float rollForce = 5f;
     public float walkSpeed = 3f;
     public float jumpForce = 2f;
     public  float attackDuration = 0.5f;
@@ -184,7 +185,7 @@ public class PlayerController : MonoBehaviour
     //Rolling
     public void OnRoll(InputAction.CallbackContext context)
     {
-        if (context.started && !_isRolling && !_isAttacking && _isGrounded) // Ensure rolling is allowed
+        if (context.started && !_isRolling && !_isAttacking && _isGrounded) 
         {
             StartCoroutine(PerformRoll());
         }
@@ -195,13 +196,14 @@ public class PlayerController : MonoBehaviour
     {
         IsRolling = true; 
         animator.SetTrigger(roll); 
+        _isRolling = true;
 
-        float originalSpeed = walkSpeed;
-        walkSpeed *= rollSpeedMultiplier; 
-
+        float rollDirection = IsFacingRight ? 1f : -1f;
+        rb.velocity = new Vector2(rollDirection * rollForce, rb.velocity.y);
+        
         yield return new WaitForSeconds(rollDuration); 
-
-        walkSpeed = originalSpeed; 
+        
+        _isRolling = false;
         IsRolling = false; 
     }
 }

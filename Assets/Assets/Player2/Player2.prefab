@@ -357,11 +357,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7eb75e81d01f64dbad2f08f93c9738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rollDuration: 0.5
+  rollSpeedMultiplier: 2
+  rollForce: 6
   walkSpeed: 5
   jumpForce: 5
   attackDuration: 0.5
-  rollDuration: 0.8
-  rollSpeedMultiplier: 2
   flipOffset: {x: 1, y: 0}
   _isRolling: 0
   _isFacingRight: 1
