@@ -100,18 +100,20 @@ public class PlayerController : MonoBehaviour
     //Player Movement 
     void FixedUpdate()
     {
-        if (!_isRolling)
-        {
-             rb.velocity = new Vector2(moveInput.x * walkSpeed, rb.velocity.y);
-        }
-       
+        if (_isAttacking || _isRolling)
+            return;
         
+        rb.velocity = new Vector2(moveInput.x * walkSpeed, rb.velocity.y);
+             
         _isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         animator.SetBool("isGrounded", _isGrounded);
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
+        if (_isAttacking || _isRolling)
+            return;
+        
         moveInput = context.ReadValue<Vector2>();
         
         IsMoving = moveInput != Vector2.zero;
@@ -164,9 +166,11 @@ public class PlayerController : MonoBehaviour
         if(context.started && !_isAttacking)
         {
             _isAttacking = true;
-            animator.SetTrigger(attack);
+                animator.Play("Player2Attack1");
             
             animator.SetBool("isAttacking", true);
+            
+            rb.velocity= Vector2.zero;
            
             StartCoroutine(ResetAttackFlag());
 
