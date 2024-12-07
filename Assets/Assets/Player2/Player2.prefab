@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
-  jumpForce: 2
+  jumpForce: 5
   flipOffset: {x: 1, y: 0}
   _isFacingRight: 1
   groundLayer:

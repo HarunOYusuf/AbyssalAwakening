@@ -7,8 +7,9 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-    
+    internal static string jump = "jump";
     internal static string attack = "attack";
+    private static readonly int Jump = Animator.StringToHash("jump");
     public float walkSpeed = 3f;
     public float jumpForce = 2f;
     private Vector2 moveInput;
@@ -44,6 +45,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     private Animator animator;
     
+    //Ground Checks
     public LayerMask groundLayer; 
     public Transform groundCheck; 
     public float groundCheckRadius = 0.2f;
@@ -121,7 +123,7 @@ public class PlayerController : MonoBehaviour
         {
           
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            animator.SetTrigger("jump"); 
+            animator.SetTrigger(jump); 
         }
     }
 
