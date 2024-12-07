@@ -324,6 +324,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: cbfdd925-419f-411a-903f-6414cab0481e
     m_ActionName: 'Player/Jump[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7678652982955302528}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnRoll
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2f38242a-f451-400e-893f-55d98d468a20
+    m_ActionName: 'Player/Roll[/Keyboard/leftShift]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -343,7 +359,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   jumpForce: 5
+  attackDuration: 0.5
+  rollDuration: 0.8
+  rollSpeedMultiplier: 2
   flipOffset: {x: 1, y: 0}
+  _isRolling: 0
   _isFacingRight: 1
   groundLayer:
     serializedVersion: 2

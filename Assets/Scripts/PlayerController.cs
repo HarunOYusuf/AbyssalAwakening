@@ -7,8 +7,11 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
+    internal static string roll = "roll";
     internal static string jump = "jump";
     internal static string attack = "attack";
+    public float rollDuration = 0.8f;
+    public float rollSpeedMultiplier = 2f;
     public float walkSpeed = 3f;
     public float jumpForce = 2f;
     public  float attackDuration = 0.5f;
@@ -18,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private bool _isMoving = false;
     private bool _isGrounded = false;
     private bool _isAttacking = false;
+    public bool _isRolling = false;
     
     
     //Player movement anim setup
@@ -36,7 +40,17 @@ public class PlayerController : MonoBehaviour
     {
         get { return _isAttacking; }
     }
-   
+    
+    //Roll anim setup
+    public bool IsRolling
+    {
+        get { return _isRolling; }
+        private set
+        {
+            _isRolling = value;
+            animator.SetBool("isRolling", value);
+        }
+    }
     
     
     
@@ -85,7 +99,11 @@ public class PlayerController : MonoBehaviour
     //Player Movement 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveInput.x * walkSpeed, rb.velocity.y);
+        if (!_isRolling)
+        {
+             rb.velocity = new Vector2(moveInput.x * walkSpeed, rb.velocity.y);
+        }
+       
         
         _isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         animator.SetBool("isGrounded", _isGrounded);
@@ -154,7 +172,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //Stop Attack anim
+    //Attack Ccroutine
     private IEnumerator ResetAttackFlag()
     { 
         yield return new WaitForSeconds(attackDuration);
@@ -162,4 +180,29 @@ public class PlayerController : MonoBehaviour
         _isAttacking = false;
         animator.SetBool("isAttacking", false);
     }
+    
+    //Rolling
+    public void OnRoll(InputAction.CallbackContext context)
+    {
+        if (context.started && !_isRolling && !_isAttacking && _isGrounded) // Ensure rolling is allowed
+        {
+            StartCoroutine(PerformRoll());
+        }
+    }
+    
+    // Roll Coroutine
+    private IEnumerator PerformRoll()
+    {
+        IsRolling = true; 
+        animator.SetTrigger(roll); 
+
+        float originalSpeed = walkSpeed;
+        walkSpeed *= rollSpeedMultiplier; 
+
+        yield return new WaitForSeconds(rollDuration); 
+
+        walkSpeed = originalSpeed; 
+        IsRolling = false; 
+    }
 }
+
