@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: a7e6489b4f732b247a6a8c88ab7c2787
+guid: f63337af4f3a7ea4dbf52cfa19ec135f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2351156727781230690
-    second: Attack 1_0
+      213: -9131873615577430156
+    second: PowerAttack2 1_0
   - first:
-      213: -3877564771510113781
-    second: Attack 1_1
+      213: -7968048090562936685
+    second: PowerAttack2 1_1
   - first:
-      213: 8036391861149860661
-    second: Attack 1_2
+      213: -1892620912757856863
+    second: PowerAttack2 1_2
   - first:
-      213: 3199637627024557385
-    second: Attack 1_3
-  - first:
-      213: -8061845164187749324
-    second: Attack 1_4
-  - first:
-      213: -6302065868831435788
-    second: Attack 1_5
-  - first:
-      213: -4125723935000731172
-    second: Attack 1_6
+      213: 8529951248146794856
+    second: PowerAttack2 1_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -116,10 +107,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack 1_0
+      name: PowerAttack2 1_0
       rect:
         serializedVersion: 2
-        x: 12
+        x: 8
         y: 0
         width: 86
         height: 86
@@ -130,59 +121,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e97745db9630f5fd0800000000000000
-      internalID: -2351156727781230690
+      spriteID: 477ceb15451154180800000000000000
+      internalID: -9131873615577430156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack 1_1
+      name: PowerAttack2 1_1
       rect:
         serializedVersion: 2
-        x: 140
-        y: 0
-        width: 86
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0a2290726f103ac0800000000000000
-      internalID: -3877564771510113781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attack 1_2
-      rect:
-        serializedVersion: 2
-        x: 288
+        x: 213
         y: 0
         width: 86
         height: 86
       alignment: 9
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0.54927063, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5338dafa1dff68f60800000000000000
-      internalID: 8036391861149860661
+      spriteID: 39044c86a7ecb6190800000000000000
+      internalID: -7968048090562936685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack 1_3
+      name: PowerAttack2 1_2
       rect:
         serializedVersion: 2
-        x: 465
+        x: 439
         y: 0
         width: 86
         height: 86
@@ -193,17 +163,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 945c5c82875676c20800000000000000
-      internalID: 3199637627024557385
+      spriteID: 1a5a790be4f0cb5e0800000000000000
+      internalID: -1892620912757856863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack 1_4
+      name: PowerAttack2 1_3
       rect:
         serializedVersion: 2
-        x: 637
+        x: 645
         y: 0
         width: 86
         height: 86
@@ -214,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 434736269829e1090800000000000000
-      internalID: -8061845164187749324
+      spriteID: 86980317779706670800000000000000
+      internalID: 8529951248146794856
       vertices: []
       indices: 
       edges: []
@@ -223,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f165c27ed065c174a9e77a3b3958f8dd
+    spriteID: d0e591f2227396f4d96da0f1cc9929b6
     internalID: 0
     vertices: []
     indices: 
@@ -231,13 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attack 1_0: -2351156727781230690
-      Attack 1_1: -3877564771510113781
-      Attack 1_2: 8036391861149860661
-      Attack 1_3: 3199637627024557385
-      Attack 1_4: -8061845164187749324
-      Attack 1_5: -6302065868831435788
-      Attack 1_6: -4125723935000731172
+      PowerAttack2 1_0: -9131873615577430156
+      PowerAttack2 1_1: -7968048090562936685
+      PowerAttack2 1_2: -1892620912757856863
+      PowerAttack2 1_3: 8529951248146794856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

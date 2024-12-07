@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour
     //Player Movement 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveInput.x * walkSpeed * Time.fixedDeltaTime, rb.velocity.y);
+        rb.velocity = new Vector2(moveInput.x * walkSpeed, rb.velocity.y);
     }
 
     public void OnMove(InputAction.CallbackContext context)
