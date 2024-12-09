@@ -107,6 +107,7 @@ public class PlayerController : MonoBehaviour
              
         _isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         animator.SetBool("isGrounded", _isGrounded);
+        animator.SetBool("isMoving", _isMoving);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -156,6 +157,7 @@ public class PlayerController : MonoBehaviour
          
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             animator.SetTrigger("jump"); 
+            
             
         }
     }
