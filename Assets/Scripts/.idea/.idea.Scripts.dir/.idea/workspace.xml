@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Bullet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,6 +38,8 @@
       <updated>1732726340890</updated>
       <workItem from="1732726344423" duration="1217000" />
       <workItem from="1733324672035" duration="1209000" />
+      <workItem from="1733921188447" duration="336000" />
+      <workItem from="1733921554329" duration="5086000" />
     </task>
     <servers />
   </component>

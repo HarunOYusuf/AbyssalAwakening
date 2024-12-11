@@ -340,6 +340,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 2f38242a-f451-400e-893f-55d98d468a20
     m_ActionName: 'Player/Roll[/Keyboard/leftShift]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 21dbad01-b9c7-4ac4-9b40-74484ba6d80a
+    m_ActionName: 'Player/Heavy Attack[/Mouse/rightButton]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -365,6 +369,7 @@ MonoBehaviour:
   attackDuration: 0.5
   flipOffset: {x: 1, y: 0}
   _isRolling: 0
+  attackChainTimeout: 1
   _isFacingRight: 1
   groundLayer:
     serializedVersion: 2

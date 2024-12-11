@@ -51,7 +51,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Heavy Attack",
+                    "name": "Block",
                     "type": "Button",
                     "id": "21dbad01-b9c7-4ac4-9b40-74484ba6d80a",
                     "expectedControlType": "Button",
@@ -310,7 +310,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Heavy Attack",
+                    "action": "Block",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
