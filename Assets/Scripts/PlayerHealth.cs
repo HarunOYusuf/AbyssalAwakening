@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public Image healthBar;
     public int health;
     public int maxHealth = 100;
     Animator animator;
@@ -15,18 +17,32 @@ public class PlayerHealth : MonoBehaviour
     {
         health = maxHealth;
         animator = GetComponent<Animator>();
+        UpdateHealthBar();
     }
-    
+
+
 
     public void TakeDamage(int amount)
     {
         if (isDead) return;
        
         health -= amount;
+        health = Mathf.Clamp(health, 0, maxHealth);
+        UpdateHealthBar();
+
+        animator.SetTrigger("Hurt");
         if (health <= 0)
         {
             health = 0;
             Death();
+        }
+    }
+    
+    private void UpdateHealthBar()
+    {
+        if (healthBar != null)
+        {
+            healthBar.fillAmount = (float)health / maxHealth;
         }
     }
 
