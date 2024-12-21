@@ -249,7 +249,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -301,10 +301,10 @@ TextureImporter:
         serializedVersion: 2
         x: 63
         y: 686
-        width: 63
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,10 +322,10 @@ TextureImporter:
         serializedVersion: 2
         x: 254
         y: 686
-        width: 63
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -343,10 +343,10 @@ TextureImporter:
         serializedVersion: 2
         x: 446
         y: 686
-        width: 64
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -364,10 +364,10 @@ TextureImporter:
         serializedVersion: 2
         x: 638
         y: 686
-        width: 64
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -385,10 +385,10 @@ TextureImporter:
         serializedVersion: 2
         x: 830
         y: 686
-        width: 64
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -406,10 +406,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1022
         y: 686
-        width: 64
-        height: 68
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -427,10 +427,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1214
         y: 686
-        width: 64
-        height: 68
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -448,10 +448,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1406
         y: 686
-        width: 64
-        height: 68
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -468,11 +468,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1598
-        y: 686
-        width: 63
-        height: 68
+        y: 688
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -490,10 +490,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1791
         y: 686
-        width: 63
-        height: 68
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -511,10 +511,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1982
         y: 686
-        width: 63
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -532,10 +532,10 @@ TextureImporter:
         serializedVersion: 2
         x: 2175
         y: 686
-        width: 63
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -553,10 +553,10 @@ TextureImporter:
         serializedVersion: 2
         x: 2366
         y: 686
-        width: 63
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -569,15 +569,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_13
+      name: Idle last
       rect:
         serializedVersion: 2
         x: 2559
         y: 686
-        width: 63
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -590,15 +590,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_14
+      name: 14
       rect:
         serializedVersion: 2
         x: 2750
         y: 686
-        width: 63
-        height: 66
+        width: 130
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -616,10 +616,10 @@ TextureImporter:
         serializedVersion: 2
         x: 63
         y: 574
-        width: 63
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -637,10 +637,10 @@ TextureImporter:
         serializedVersion: 2
         x: 257
         y: 574
-        width: 59
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -658,10 +658,10 @@ TextureImporter:
         serializedVersion: 2
         x: 449
         y: 574
-        width: 58
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -679,10 +679,10 @@ TextureImporter:
         serializedVersion: 2
         x: 641
         y: 574
-        width: 57
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -700,10 +700,10 @@ TextureImporter:
         serializedVersion: 2
         x: 832
         y: 574
-        width: 60
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -721,10 +721,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1022
         y: 574
-        width: 64
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -742,10 +742,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1214
         y: 574
-        width: 65
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -763,10 +763,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1406
         y: 574
-        width: 64
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -784,10 +784,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1597
         y: 574
-        width: 66
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -805,10 +805,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1791
         y: 574
-        width: 63
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -826,10 +826,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1982
         y: 574
-        width: 63
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -842,15 +842,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_26
+      name: walk last
       rect:
         serializedVersion: 2
         x: 2175
         y: 574
-        width: 63
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -868,10 +868,10 @@ TextureImporter:
         serializedVersion: 2
         x: 46
         y: 466
-        width: 98
-        height: 64
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -889,10 +889,10 @@ TextureImporter:
         serializedVersion: 2
         x: 233
         y: 466
-        width: 108
-        height: 71
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -910,10 +910,10 @@ TextureImporter:
         serializedVersion: 2
         x: 430
         y: 464
-        width: 97
+        width: 136
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -931,10 +931,10 @@ TextureImporter:
         serializedVersion: 2
         x: 621
         y: 466
-        width: 104
-        height: 63
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -952,10 +952,10 @@ TextureImporter:
         serializedVersion: 2
         x: 825
         y: 466
-        width: 77
-        height: 53
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -968,15 +968,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_32
+      name: fly
       rect:
         serializedVersion: 2
         x: 1008
         y: 467
-        width: 95
-        height: 52
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -994,10 +994,10 @@ TextureImporter:
         serializedVersion: 2
         x: 65
         y: 351
-        width: 65
-        height: 70
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1015,10 +1015,10 @@ TextureImporter:
         serializedVersion: 2
         x: 250
         y: 351
-        width: 67
-        height: 68
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1037,9 +1037,9 @@ TextureImporter:
         x: 437
         y: 351
         width: 136
-        height: 68
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1057,10 +1057,10 @@ TextureImporter:
         serializedVersion: 2
         x: 635
         y: 351
-        width: 128
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1078,10 +1078,10 @@ TextureImporter:
         serializedVersion: 2
         x: 837
         y: 351
-        width: 107
-        height: 64
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1099,10 +1099,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1029
         y: 351
-        width: 56
-        height: 64
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1115,36 +1115,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_39
-      rect:
-        serializedVersion: 2
-        x: 1092
-        y: 375
-        width: 43
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70a8e9909bb94c745a40d8c309ccd84c
-      internalID: 52129219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_40
+      name: attack
       rect:
         serializedVersion: 2
         x: 1219
         y: 351
-        width: 60
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1162,10 +1141,10 @@ TextureImporter:
         serializedVersion: 2
         x: 53
         y: 238
-        width: 67
-        height: 68
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1183,10 +1162,10 @@ TextureImporter:
         serializedVersion: 2
         x: 243
         y: 238
-        width: 68
-        height: 68
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1204,10 +1183,10 @@ TextureImporter:
         serializedVersion: 2
         x: 437
         y: 238
-        width: 114
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1225,10 +1204,10 @@ TextureImporter:
         serializedVersion: 2
         x: 628
         y: 238
-        width: 139
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1247,9 +1226,9 @@ TextureImporter:
         x: 821
         y: 238
         width: 139
-        height: 66
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1267,10 +1246,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1013
         y: 238
-        width: 139
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1286,12 +1265,12 @@ TextureImporter:
       name: cthulu_192x112_SpriteSheet_47
       rect:
         serializedVersion: 2
-        x: 1206
+        x: 1209
         y: 238
-        width: 138
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1309,10 +1288,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1410
         y: 238
-        width: 88
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1325,15 +1304,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_49
+      name: attack 2
       rect:
         serializedVersion: 2
         x: 1597
         y: 238
-        width: 64
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1351,10 +1330,10 @@ TextureImporter:
         serializedVersion: 2
         x: 63
         y: 126
-        width: 84
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1372,10 +1351,10 @@ TextureImporter:
         serializedVersion: 2
         x: 254
         y: 126
-        width: 84
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1393,10 +1372,10 @@ TextureImporter:
         serializedVersion: 2
         x: 448
         y: 126
-        width: 86
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1414,10 +1393,10 @@ TextureImporter:
         serializedVersion: 2
         x: 639
         y: 126
-        width: 87
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1430,15 +1409,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_54
+      name: hurt
       rect:
         serializedVersion: 2
         x: 830
         y: 126
-        width: 85
-        height: 67
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1456,10 +1435,10 @@ TextureImporter:
         serializedVersion: 2
         x: 63
         y: 15
-        width: 84
-        height: 66
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1477,10 +1456,10 @@ TextureImporter:
         serializedVersion: 2
         x: 252
         y: 15
-        width: 88
-        height: 70
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1496,12 +1475,12 @@ TextureImporter:
       name: cthulu_192x112_SpriteSheet_57
       rect:
         serializedVersion: 2
-        x: 444
+        x: 443
         y: 18
-        width: 71
-        height: 60
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1519,10 +1498,10 @@ TextureImporter:
         serializedVersion: 2
         x: 636
         y: 15
-        width: 76
-        height: 50
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1540,10 +1519,10 @@ TextureImporter:
         serializedVersion: 2
         x: 828
         y: 15
-        width: 73
-        height: 43
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1561,10 +1540,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1022
         y: 15
-        width: 73
-        height: 26
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1582,10 +1561,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1216
         y: 15
-        width: 74
-        height: 18
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1603,10 +1582,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1407
         y: 15
-        width: 80
-        height: 14
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1624,10 +1603,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1600
         y: 15
-        width: 78
-        height: 14
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1645,10 +1624,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1787
         y: 15
-        width: 84
-        height: 14
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1661,15 +1640,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cthulu_192x112_SpriteSheet_65
+      name: death
       rect:
         serializedVersion: 2
         x: 1978
         y: 15
-        width: 84
-        height: 14
+        width: 136
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1692,72 +1671,73 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cthulu_192x112_SpriteSheet_0: -1808630399
-      cthulu_192x112_SpriteSheet_1: 1165661579
-      cthulu_192x112_SpriteSheet_10: 1899525219
-      cthulu_192x112_SpriteSheet_11: 1282513756
-      cthulu_192x112_SpriteSheet_12: 542970617
-      cthulu_192x112_SpriteSheet_13: 23405017
-      cthulu_192x112_SpriteSheet_14: 1271050407
-      cthulu_192x112_SpriteSheet_15: 1138006517
-      cthulu_192x112_SpriteSheet_16: -685712936
-      cthulu_192x112_SpriteSheet_17: 143779171
-      cthulu_192x112_SpriteSheet_18: -704593468
-      cthulu_192x112_SpriteSheet_19: -1600805872
-      cthulu_192x112_SpriteSheet_2: -24501023
-      cthulu_192x112_SpriteSheet_20: -1234291463
-      cthulu_192x112_SpriteSheet_21: -185531190
-      cthulu_192x112_SpriteSheet_22: -1062287298
-      cthulu_192x112_SpriteSheet_23: -1410488158
-      cthulu_192x112_SpriteSheet_24: -480897346
-      cthulu_192x112_SpriteSheet_25: 789645017
-      cthulu_192x112_SpriteSheet_26: 202158535
-      cthulu_192x112_SpriteSheet_27: 571391769
-      cthulu_192x112_SpriteSheet_28: -1463216718
-      cthulu_192x112_SpriteSheet_29: -955775926
-      cthulu_192x112_SpriteSheet_3: -2125058322
-      cthulu_192x112_SpriteSheet_30: 1418640193
-      cthulu_192x112_SpriteSheet_31: -1490713201
-      cthulu_192x112_SpriteSheet_32: -1398917945
-      cthulu_192x112_SpriteSheet_33: 1685070047
-      cthulu_192x112_SpriteSheet_34: 1131369671
-      cthulu_192x112_SpriteSheet_35: 1208063536
-      cthulu_192x112_SpriteSheet_36: -38533358
-      cthulu_192x112_SpriteSheet_37: -964136038
-      cthulu_192x112_SpriteSheet_38: 415692743
-      cthulu_192x112_SpriteSheet_39: 52129219
-      cthulu_192x112_SpriteSheet_4: -1428524784
-      cthulu_192x112_SpriteSheet_40: 1293652254
-      cthulu_192x112_SpriteSheet_41: 1604792510
-      cthulu_192x112_SpriteSheet_42: -1106890742
-      cthulu_192x112_SpriteSheet_43: 1389394689
-      cthulu_192x112_SpriteSheet_44: 94100287
-      cthulu_192x112_SpriteSheet_45: -1770473448
-      cthulu_192x112_SpriteSheet_46: -881057818
-      cthulu_192x112_SpriteSheet_47: 1824966941
-      cthulu_192x112_SpriteSheet_48: 969689008
-      cthulu_192x112_SpriteSheet_49: -1205349743
-      cthulu_192x112_SpriteSheet_5: 927552024
-      cthulu_192x112_SpriteSheet_50: -50368358
-      cthulu_192x112_SpriteSheet_51: 1519835779
-      cthulu_192x112_SpriteSheet_52: -609318085
-      cthulu_192x112_SpriteSheet_53: 461711736
-      cthulu_192x112_SpriteSheet_54: -195055128
-      cthulu_192x112_SpriteSheet_55: -1855825941
-      cthulu_192x112_SpriteSheet_56: -2101311281
-      cthulu_192x112_SpriteSheet_57: -31412326
-      cthulu_192x112_SpriteSheet_58: -1706210541
-      cthulu_192x112_SpriteSheet_59: -890639126
-      cthulu_192x112_SpriteSheet_6: 1178632074
-      cthulu_192x112_SpriteSheet_60: 877459133
-      cthulu_192x112_SpriteSheet_61: -1159202214
-      cthulu_192x112_SpriteSheet_62: -794281921
-      cthulu_192x112_SpriteSheet_63: 1553084157
-      cthulu_192x112_SpriteSheet_64: 2073475821
-      cthulu_192x112_SpriteSheet_65: 209255260
-      cthulu_192x112_SpriteSheet_7: -1683145872
-      cthulu_192x112_SpriteSheet_8: 2086727346
-      cthulu_192x112_SpriteSheet_9: 1495170626
+      14: 1271050407
+      Idle last: 23405017
+      attack: 1293652254
+      attack 2: -1205349743
+      cthulu_192x112_SpriteSheet_0: 1899525219
+      cthulu_192x112_SpriteSheet_1: 1282513756
+      cthulu_192x112_SpriteSheet_10: 542970617
+      cthulu_192x112_SpriteSheet_11: 1138006517
+      cthulu_192x112_SpriteSheet_12: -685712936
+      cthulu_192x112_SpriteSheet_15: 143779171
+      cthulu_192x112_SpriteSheet_16: -704593468
+      cthulu_192x112_SpriteSheet_17: -1600805872
+      cthulu_192x112_SpriteSheet_18: -1234291463
+      cthulu_192x112_SpriteSheet_19: -185531190
+      cthulu_192x112_SpriteSheet_2: -1062287298
+      cthulu_192x112_SpriteSheet_20: -1410488158
+      cthulu_192x112_SpriteSheet_21: -480897346
+      cthulu_192x112_SpriteSheet_22: 789645017
+      cthulu_192x112_SpriteSheet_23: 571391769
+      cthulu_192x112_SpriteSheet_24: -1463216718
+      cthulu_192x112_SpriteSheet_25: -955775926
+      cthulu_192x112_SpriteSheet_27: 1418640193
+      cthulu_192x112_SpriteSheet_28: -1490713201
+      cthulu_192x112_SpriteSheet_29: 1685070047
+      cthulu_192x112_SpriteSheet_3: 1131369671
+      cthulu_192x112_SpriteSheet_30: 1208063536
+      cthulu_192x112_SpriteSheet_31: -38533358
+      cthulu_192x112_SpriteSheet_33: -964136038
+      cthulu_192x112_SpriteSheet_34: 415692743
+      cthulu_192x112_SpriteSheet_35: 52129219
+      cthulu_192x112_SpriteSheet_36: 1604792510
+      cthulu_192x112_SpriteSheet_37: -1106890742
+      cthulu_192x112_SpriteSheet_38: 1389394689
+      cthulu_192x112_SpriteSheet_39: 94100287
+      cthulu_192x112_SpriteSheet_4: -1770473448
+      cthulu_192x112_SpriteSheet_41: -881057818
+      cthulu_192x112_SpriteSheet_42: 1824966941
+      cthulu_192x112_SpriteSheet_43: 969689008
+      cthulu_192x112_SpriteSheet_44: -50368358
+      cthulu_192x112_SpriteSheet_45: 1519835779
+      cthulu_192x112_SpriteSheet_46: -609318085
+      cthulu_192x112_SpriteSheet_47: 461711736
+      cthulu_192x112_SpriteSheet_48: -1855825941
+      cthulu_192x112_SpriteSheet_5: -2101311281
+      cthulu_192x112_SpriteSheet_50: -31412326
+      cthulu_192x112_SpriteSheet_51: -1706210541
+      cthulu_192x112_SpriteSheet_52: -890639126
+      cthulu_192x112_SpriteSheet_53: 1178632074
+      cthulu_192x112_SpriteSheet_55: 877459133
+      cthulu_192x112_SpriteSheet_56: -1159202214
+      cthulu_192x112_SpriteSheet_57: -794281921
+      cthulu_192x112_SpriteSheet_58: 1553084157
+      cthulu_192x112_SpriteSheet_59: 2073475821
+      cthulu_192x112_SpriteSheet_6: 1582722418
+      cthulu_192x112_SpriteSheet_60: -1683145872
+      cthulu_192x112_SpriteSheet_61: 2086727346
+      cthulu_192x112_SpriteSheet_62: 1495170626
+      cthulu_192x112_SpriteSheet_63: 209255260
+      cthulu_192x112_SpriteSheet_64: -1398917945
+      cthulu_192x112_SpriteSheet_66: -195055128
+      cthulu_192x112_SpriteSheet_7: 202158535
+      cthulu_192x112_SpriteSheet_8: -1808630399
+      cthulu_192x112_SpriteSheet_9: 1165661579
+      death: -24501023
+      fly: -2125058322
+      hurt: -1428524784
+      walk last: 927552024
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

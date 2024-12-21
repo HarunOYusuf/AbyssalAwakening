@@ -13,7 +13,8 @@ public class Enemy1 : MonoBehaviour
     
     private void Update()
     {
-        Patrol();
+    
+        
     }
 
     void Patrol()
