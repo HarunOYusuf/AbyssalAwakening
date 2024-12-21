@@ -48,6 +48,8 @@ MonoBehaviour:
   pointB: {fileID: 0}
   speed: 2
   threshold: 0.1
+  playerHealth: {fileID: 0}
+  damage: 5
 --- !u!1 &2706404725239426490
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +243,8 @@ MonoBehaviour:
   pointB: {fileID: 2477548972955994234}
   speed: 2
   threshold: 0.1
+  playerHealth: {fileID: 0}
+  damage: 40
 --- !u!1 &6129991892391034892
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +293,8 @@ MonoBehaviour:
   pointB: {fileID: 0}
   speed: 2
   threshold: 0.1
+  playerHealth: {fileID: 0}
+  damage: 5
 --- !u!1 &7533228777499778554
 GameObject:
   m_ObjectHideFlags: 0

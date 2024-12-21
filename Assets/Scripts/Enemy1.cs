@@ -10,6 +10,8 @@ public class Enemy1 : MonoBehaviour
     public float speed = 2f;
     private bool movingToB = true;
     public float threshold = 0.1f;
+    public PlayerHealth playerHealth;
+    public int damage = 5;
     
     private void Update()
     {
@@ -27,6 +29,14 @@ public class Enemy1 : MonoBehaviour
         {
             transform.position = targetPosition;
             movingToB = !movingToB;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            playerHealth.TakeDamage(damage);
         }
     }
 }
