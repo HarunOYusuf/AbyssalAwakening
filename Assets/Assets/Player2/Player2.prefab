@@ -110,7 +110,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 4723107735738678597, guid: 19e590cd22da46849aca9d8461294f7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -371,6 +371,11 @@ MonoBehaviour:
   flipOffset: {x: 1, y: 0}
   _isRolling: 0
   attackChainTimeout: 1
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  attackDamage: 10
+  attackPoint: {fileID: 0}
   _isFacingRight: 1
   groundLayer:
     serializedVersion: 2
@@ -389,5 +394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bb86a5fa74228f4ca427a9f91772679, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   health: 0
   maxHealth: 100

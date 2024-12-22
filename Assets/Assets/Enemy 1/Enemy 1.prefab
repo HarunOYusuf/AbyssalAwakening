@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2477548972955994234}
   - component: {fileID: 2204856898649827443}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PointB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,9 +64,10 @@ GameObject:
   - component: {fileID: 8492631035757626580}
   - component: {fileID: 7689409745395425635}
   - component: {fileID: 5229512961542239617}
-  m_Layer: 0
+  - component: {fileID: 1204510584552030895}
+  m_Layer: 6
   m_Name: Enemy 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,6 +246,19 @@ MonoBehaviour:
   threshold: 0.1
   playerHealth: {fileID: 0}
   damage: 40
+--- !u!114 &1204510584552030895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2706404725239426490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6cfa719b89bad4eba7322c7607bff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
 --- !u!1 &6129991892391034892
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577266747448566829}
   - component: {fileID: 2008561389155928806}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PointA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +318,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2306840303070330562}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -27,6 +27,9 @@ public class PlayerController : MonoBehaviour
     private int attackIndex = 0;
     private float lastAttackTime = 0f;
     public float attackChainTimeout = 1f;
+    public LayerMask enemyLayer;
+    public int attackDamage = 10; 
+     
 
 
     //Player movement anim setup
@@ -232,6 +235,12 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger(trigger);
         }
+        
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(transform.position, 10f, enemyLayer);
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            Debug.Log("Hit" + enemy.name);
+        }
 
         attackIndex = (attackIndex + 1) % 4;
 
@@ -240,6 +249,9 @@ public class PlayerController : MonoBehaviour
         _isAttacking = false;
         animator.SetBool("isAttacking", false);
     }
+    
+    
+    
 
     //Rolling
     public void OnRoll(InputAction.CallbackContext context)
