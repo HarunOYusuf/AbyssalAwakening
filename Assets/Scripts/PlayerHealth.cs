@@ -9,8 +9,11 @@ public class PlayerHealth : MonoBehaviour
     public Image healthBar;
     public int health;
     public int maxHealth = 100;
+    public GameObject deathScreen; 
+    
     Animator animator;
     private bool isDead = false;
+    
     
     private PlayerController playerController;
     void Start()
@@ -18,6 +21,11 @@ public class PlayerHealth : MonoBehaviour
         health = maxHealth;
         animator = GetComponent<Animator>();
         UpdateHealthBar();
+        
+        if (deathScreen != null)
+        {
+            deathScreen.SetActive(false);
+        }
     }
 
 
@@ -29,8 +37,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         health = Mathf.Clamp(health, 0, maxHealth);
         UpdateHealthBar();
-
-        animator.SetTrigger("Hurt");
+        
         if (health <= 0)
         {
             health = 0;
@@ -46,11 +53,19 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    private void Death()
+    public void Death()
     {
         isDead = true;
         animator.SetTrigger("Death");
+        
+        if (deathScreen != null)
+        {
+            deathScreen.SetActive(true);
+        }
+
         StartCoroutine(HandleDeathAnimation());
+        
+        
     }
 
 
@@ -60,5 +75,6 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(animationState.length + animationState.normalizedTime);
 
         Destroy(gameObject);
+        
     }
 }
